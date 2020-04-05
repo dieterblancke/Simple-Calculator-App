@@ -1,0 +1,50 @@
+main {
+    width: 95% !important;
+    margin: 25px auto;
+}
+
+/*
+ * Setting height of elements
+ */
+#result, #clear {
+    display: block;
+    height: 75px;
+}
+
+.h100 button {
+    min-height: 100px;
+}
+
+/*
+ * Adding margin so everything isn't glued together.
+ */
+#result {
+    margin-right: 5px;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+.row button {
+    margin-right: 5px;
+}
+
+.row button:last-child {
+    margin-right: 0;
+}
+
+/*
+ * Overriding some bootstrap classes
+ */
+.col-3 {
+    -ms-flex: 0 0 24%;
+    flex: 0 0 24%;
+    max-width: 24%;
+}
+
+.col-10 {
+    -ms-flex: 0 0 82%;
+    flex: 0 0 82%;
+    max-width: 82%;
+}

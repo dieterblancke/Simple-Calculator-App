@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Calculator</title>
+	
+	<link rel="stylesheet"
+	      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	      crossorigin="anonymous"/>
+	<link rel="stylesheet"
+	      href="assets/css/app.css"/>
+</head>
+<body>
+<main class="container-fluid">
+	<div class="row">
+		<input type="text" id="result" class="form-control col-10"/>
+		<button id="clear" class="col-2">c</button>
+	</div>
+	<div class="row h100 justify-content-center">
+		<button data-action="1" class="col-3">1</button>
+		<button data-action="2" class="col-3">2</button>
+		<button data-action="3" class="col-3">3</button>
+		<button data-action="/" class="col-3">/</button>
+	</div>
+	<div class="row h100 justify-content-center">
+		<button data-action="4" class="col-3">4</button>
+		<button data-action="5" class="col-3">5</button>
+		<button data-action="6" class="col-3">6</button>
+		<button data-action="-" class="col-3">-</button>
+	</div>
+	<div class="row h100 justify-content-center">
+		<button data-action="7" class="col-3">7</button>
+		<button data-action="8" class="col-3">8</button>
+		<button data-action="9" class="col-3">9</button>
+		<button data-action="+" class="col-3">+</button>
+	</div>
+	<div class="row h100 justify-content-center">
+		<button data-action="." class="col-3">.</button>
+		<button data-action="0" class="col-3">0</button>
+		<button data-action="=" class="col-3">=</button>
+		<button data-action="*" class="col-3">*</button>
+	</div>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
